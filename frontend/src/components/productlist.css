@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Lato:wght@900&family=Saira:ital,wght@1,700&display=swap');
+
+
+.but
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  border-top:solid 1px;
+ 
+  
+}
+
+.cards
+{
+  display:block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width:100%;
+  height:100%;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  background-color: #fff;
+  font-family: arial;
+}
+
+.colum>.buybutton
+{
+  border: none;
+  outline: 0;
+  color: white;
+  background-color:black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.colum select option {
+  width: 300px;
+  padding: 8px;
+  color: red;
+}
+.cathead
+{
+  text-align: center;
+  font-family: 'Days One', sans-serif;
+  color: chartreuse;
+
+}
+
+
+.colum
+{
+ 
+  border:none;
+  margin-top: 20px;
+  width: 200px;
+  padding: 0px;
+  font-family: 'Saira',sans-serif;
+  text-align: left;
+  
+}
+.cards img
+{
+  width: 150px;
+  height: 250px;
+  flex:1;
+  
+}
+
+.colum select
+{
+  width: 150px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+}
+.colum >.price
+{
+  font-size: 1.25rem;
+  text-align: left;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: 'Saira',sans-serif;
+  margin-top: 20px;
+  
+}
+.colum > .titles{
+color: aqua;
+
+flex-grow: 1;
+}
+
+
+
